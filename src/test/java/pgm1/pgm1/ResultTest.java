@@ -14,7 +14,7 @@ public class ResultTest {
 		Assert.assertEquals(Result.display(35), "fail");
 	}
 	@Test
-	public void TestPass() {
+	public void testInvalid() {
 		Assert.assertEquals(Result.display(515), "invalid");
 	}
 }
